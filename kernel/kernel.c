@@ -215,10 +215,10 @@ void print_version_detailed() {
 // 显示系统信息
 void show_system_info() {
     vga_print("========================================\n");
-    vga_print("       PotatoOS \n");
+    vga_print("       Potato_OS \n");
     vga_print("========================================\n\n");
     
-    vga_print("Kernel: PotatoOS ");
+    vga_print("Kernel: Potato_OS ");
     vga_print(VERSION_STRING);
     vga_print("\n");
     vga_print("Architecture: ");

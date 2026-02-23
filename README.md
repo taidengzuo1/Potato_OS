@@ -1,6 +1,4 @@
-# SimpleOS - 一个简单的x86操作系统
-
-SimpleOS是一个教学性质的简单操作系统,展示操作系统开发的基本概念。它可以在QEMU虚拟机中运行。
+# Potato_OS - 一个完全由AI制作的x86操作系统
 
 ## 系统特性
 
@@ -123,26 +121,6 @@ make run
    - `info` - 显示系统信息
    - `clear` - 清屏
 
-## 技术细节
-
-### 内存布局
-
-```
-0x7C00 - Bootloader
-0x10000 - Kernel (64KB)
-0x90000 - 栈
-```
-
-### 系统启动流程
-
-1. BIOS加载Bootloader到0x7C00
-2. Bootloader加载内核到0x10000
-3. 切换到保护模式
-4. 跳转到内核
-5. 初始化VGA显示
-6. 显示系统信息
-7. 进入主循环
-
 ## 未来改进
 
 - [ ] 键盘输入处理
@@ -154,26 +132,6 @@ make run
 - [ ] 系统调用接口
 - [ ] 图形界面
 
-## 学习资源
-
-- [OSDev Wiki](https://wiki.osdev.org/)
-- [Developing Your Own 32-Bit Operating System](https://www.youtube.com/playlist?list=PLxN0UwT2w5jv2vBZg8DfO2Zr0c8c7vZf0)
-- [Writing a Simple Operating System from Scratch](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
-
 ## 许可证
 
 MIT License - 自由使用和学习
-
-## 贡献
-
-欢迎提交问题和改进建议!
-
-## 注意事项
-
-- 这是一个教学项目,不适合生产环境
-- 仅在QEMU中测试,在真实硬件上运行可能有风险
-- 代码可能包含bug,仅用于学习目的
-
-## 联系方式
-
-如有问题或建议,欢迎交流!

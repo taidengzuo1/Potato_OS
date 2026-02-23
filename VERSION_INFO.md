@@ -12,7 +12,7 @@ MAJOR.MINOR.PATCH-STAGE.BUILD
 
 ### 版本号说明
 
-- **MAJOR (主版本号)**: 不兼容的API修改
+- **MAJOR (主版本号)**: 不兼容的API修改 或 架构重构 或 大规模的新功能增加等
 - **MINOR (次版本号)**: 向下兼容的功能性新增
 - **PATCH (补丁版本号)**: 向下兼容的问题修正
 - **STAGE (开发阶段)**:
@@ -20,7 +20,7 @@ MAJOR.MINOR.PATCH-STAGE.BUILD
   - `beta` - 公开测试版
   - `rc` - 候选发布版
   - `release` - 正式发布版
-- **BUILD (构建号)**: 构建序列号
+- **BUILD (构建号)**: 该开发阶段中的构建序列号
 
 ## 当前版本
 
